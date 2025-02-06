@@ -7,7 +7,7 @@ type Props = {
 
 const Decrement: React.FC<Props> = ({ decrement }) => {
   return (
-    <Button title="Decrement" onPress={decrement}></Button>
+    <Button title="Decrement -" color='red'  onPress={decrement}></Button>
   );
 };
 

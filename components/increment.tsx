@@ -7,7 +7,7 @@ type Props = {
 
 const Increment: React.FC<Props> = ({ increment }) => {
   return (
-    <Button title="Increment"onPress={increment}>
+    <Button title="Increment +" color='red' onPress={increment}>
       
     </Button>
   );
