@@ -16,6 +16,7 @@ export default function App() {
       <StatusBar style="auto" />
       <View style={styles.lab}>
         <Link href='/lab3' style={styles.link}><Text>Lab 3</Text></Link>
+        <Link href='/lab4' style={styles.link}><Text>Lab 4</Text></Link>
       </View>
       
     </View>
@@ -40,7 +41,8 @@ const styles = StyleSheet.create({
     height:30,
     marginBottom: 10,
     padding: 10,
-    flex:0.1,
+    flex:0.2,
+    flexDirection: 'row',
     alignSelf: 'center',
     color: 'lightblue',
     fontSize: 20,
