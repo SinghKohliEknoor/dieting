@@ -17,6 +17,7 @@ export default function App() {
       <View style={styles.lab}>
         <Link href='/lab3' style={styles.link}><Text>Lab 3</Text></Link>
         <Link href='/lab4' style={styles.link}><Text>Lab 4</Text></Link>
+        <Link href='/lab5' style={styles.link}><Text>Lab 5</Text></Link>
       </View>
       
     </View>
